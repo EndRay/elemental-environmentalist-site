@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Pixel;
+    src: url('fonts/m5x7.ttf');
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 24px;
+    background-image: url("pictures/BG.png");
+    background-repeat: repeat;
+    color: white;
+    font-family: Pixel, serif;
+    margin: 0
+}
+
+.column-holder {
+    display: flex;
+}
+
+.vertical-info {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 10px;
+}
+
+.downloads {
+    text-align: center;
+    margin: 14px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 4px;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+p {
+    margin: 10px 10px 10px 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.paper {
+    background: #968d5b;
+    padding: 20px;
+    border-radius: 20px;
+    width: 1250px;
+}
+
+button {
+    background: transparent;
+    color: white;
+    font-size: 30px;
+    font-family: Pixel, serif;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+
+    transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+button:active {
+    background: lightgray;
+    color: black;
+}
+
+physical {
+    color: lightgray;
+}
+
+heal {
+    color: #00ff00;
+}
+
+fire {
+    color: red;
+}
+
+cold {
+    color: lightblue;
+}
+
+water {
+    color: blue;
+}
+
+lightning {
+    color: #a020f0;
+}
+
+dark {
+    color: indigo;
+}
+
+light {
+    color: lightgoldenrodyellow;
+}
