@@ -13,7 +13,7 @@
 }
 
 body {
-    font-size: 24px;
+    font-size: 20px;
     background-image: url("pictures/BG.png");
     background-repeat: repeat;
     color: white;
@@ -28,7 +28,7 @@ body {
 .vertical-info {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 500px;
     margin: 10px;
 }
 
@@ -58,7 +58,7 @@ a {
     background: #968d5b;
     padding: 20px;
     border-radius: 20px;
-    width: 1250px;
+    width: 1050px;
 }
 
 button {
